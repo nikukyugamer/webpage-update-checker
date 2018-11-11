@@ -29,13 +29,15 @@ Style/NumericLiterals:
   Enabled: false
 
 Style/PercentLiteralDelimiters:
-  PreferredDelimiters:
-    default: ()
-    '%i': []
-    '%I': []
-    '%r': {}
-    '%w': ()
-    '%W': []
+  Enabled: false
+  # TODO: 非常に心苦しいが、false としておく
+  # PreferredDelimiters:
+  #   default: ()
+  #   '%i': []
+  #   '%I': []
+  #   '%r': {}
+  #   '%w': ()
+  #   '%W': []
 
 Style/Documentation:
   Enabled: false # 一行目に class って書いてもいいでしょ
