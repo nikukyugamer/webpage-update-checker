@@ -1,7 +1,11 @@
-return は true or false
-方法は header or md5 or ...?
-過去のデータを貯めるとかはしない
+# メソッド二つ
+- 前回の値（日時 or MD5）を与えると更新されたかされないかの boolean が返ってくる
+    - 引数は日時 or MD5
+    - 日時の型は？
+- 日時 or MD5 の値を返す
+    - 引数は URI
 
+# ここから下は直感で書いたので今やアンチパターン
 Checker.set_uri('https://www.yahoo.co.jp/')
 Checker.do('md5', String) #=> true or false (boolean)
 Checker.do('sha1', String) #=> true or false (boolean)
