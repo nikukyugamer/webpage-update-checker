@@ -1,6 +1,6 @@
 module WebpageUpdateChecker
   module Ways
-    class Sha2
+    class Sha256
       def initialize(uri:)
         @uri = uri
       end

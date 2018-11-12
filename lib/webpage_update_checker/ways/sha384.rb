@@ -1,16 +1,15 @@
-require 'time'
-
 module WebpageUpdateChecker
   module Ways
-    class LastModified
-
+    class Sha384
       def initialize(uri:)
         @uri = uri
       end
 
       def current_diff_value
+        require 'digest/sha2'
+
         page = Mechanize.new.get(@uri)
-        page.header['last-modified'] ? Time.parse(page.header['last-modified']) : nil
+        Digest::SHA384.hexdigest(page.body)
       end
     end
   end

@@ -1,7 +1,5 @@
 require 'webpage_update_checker/version'
-require 'webpage_update_checker/foo'
+require 'webpage_update_checker/judge'
 
 module WebpageUpdateChecker
-  # autoload :
-  # Your code goes here...
 end
