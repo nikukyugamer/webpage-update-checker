@@ -25,6 +25,30 @@ checker.updated?(target_page_md5, previous_diff_value: 'fb2eeb524e6b5637ef7fa4be
 checker.updated?(target_page_md5, previous_diff_value: '12345678901234567890123456789012') #=> true (updated)
 ```
 
+# Methods
+You can use these `Methods`.
+
+- LastModified
+    - `Time` class
+- Md5
+    - `String` class
+- Sha1
+    - `String` class
+- Sha256
+    - `String` class
+- Sha384
+    - `String` class
+- Sha512
+    - `String` class
+
+# methods
+You can use these methods in each `Methods`.
+
+- `#updated?(checked_object, previous_diff_value:)`
+    - `#=> true or false`
+- `#current_diff_value(checked_object)`
+    - `#=> object such as Time or String (MD5, SHA512...)`
+
 # TODO
 - [Coveralls](https://coveralls.io/)
 - [Code Climate](https://codeclimate.com/)
