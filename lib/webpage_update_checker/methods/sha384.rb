@@ -1,15 +1,15 @@
 module WebpageUpdateChecker
-  module Ways
-    class Sha1
+  module Methods
+    class Sha384
       def initialize(uri:)
         @uri = uri
       end
 
       def current_diff_value
-        require 'digest/sha1'
+        require 'digest/sha2'
 
         page = Mechanize.new.get(@uri)
-        Digest::SHA1.hexdigest(page.body)
+        Digest::SHA384.hexdigest(page.body)
       end
     end
   end

@@ -1,7 +1,7 @@
 require 'time'
 
 module WebpageUpdateChecker
-  module Ways
+  module Methods
     class LastModified
 
       def initialize(uri:)

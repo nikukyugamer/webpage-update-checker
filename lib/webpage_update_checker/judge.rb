@@ -1,5 +1,5 @@
 require 'mechanize'
-Dir[File.expand_path('ways', __dir__) << '/*.rb'].each { |file| require file }
+Dir[File.expand_path('methods', __dir__) << '/*.rb'].each { |file| require file }
 
 module WebpageUpdateChecker
   class Judge

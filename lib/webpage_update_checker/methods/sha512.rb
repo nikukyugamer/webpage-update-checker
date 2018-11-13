@@ -1,5 +1,5 @@
 module WebpageUpdateChecker
-  module Ways
+  module Methods
     class Sha512
       def initialize(uri:)
         @uri = uri

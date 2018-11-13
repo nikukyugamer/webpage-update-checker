@@ -1,15 +1,15 @@
 module WebpageUpdateChecker
-  module Ways
-    class Md5
+  module Methods
+    class Sha256
       def initialize(uri:)
         @uri = uri
       end
 
       def current_diff_value
-        require 'digest/md5'
+        require 'digest/sha2'
 
         page = Mechanize.new.get(@uri)
-        Digest::MD5.hexdigest(page.body)
+        Digest::SHA256.hexdigest(page.body)
       end
     end
   end
