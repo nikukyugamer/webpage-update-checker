@@ -1,6 +1,6 @@
-RSpec.describe WebpageUpdateChecker::Judge do
+RSpec.describe WebpageUpdateChecker::Client do
   before do
-    @checker = WebpageUpdateChecker::Judge.new
+    @checker = WebpageUpdateChecker::Client.new
   end
 
   describe '#current_diff_value' do

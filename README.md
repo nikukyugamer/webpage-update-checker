@@ -17,7 +17,7 @@ $ bundle install
 ```ruby
 require 'webpage_update_checker'
 
-checker = WebpageUpdateChecker::Judge.new
+checker = WebpageUpdateChecker::Client.new
 target_page_md5 = WebpageUpdateChecker::Methods::Md5.new(uri: 'http://www.ne.jp/asahi/pursuits/ootsuki/pc/X68k/x680x0.xhtml')
 
 checker.current_diff_value(target_page_md5) #=> fb2eeb524e6b5637ef7fa4bed48f1d67
