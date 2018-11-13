@@ -2,6 +2,9 @@
 - Gem for checking whether the target webpage is updated.
     - For not only webpage but also image, css and js (resources)
 
+[![Gem Version](https://badge.fury.io/rb/webpage_update_checker.svg)](https://badge.fury.io/rb/webpage_update_checker)
+[![CircleCI](https://circleci.com/gh/corselia/webpage-update-checker.svg?style=svg)](https://circleci.com/gh/corselia/webpage-update-checker)
+
 # Usage
 ```
 gem 'webpage_update_checker'
@@ -23,10 +26,8 @@ checker.updated?(target_page_md5, previous_diff_value: '123456789012345678901234
 ```
 
 # TODO
-- CI
-    - CircleCI
-- カバレッジ
-- バッジ
+- [Coveralls](https://coveralls.io/)
+- [Code Climate](https://codeclimate.com/)
 
 # LICENSE
-[MIT LICENSE](/LICENSE)
+- [MIT LICENSE](/LICENSE)

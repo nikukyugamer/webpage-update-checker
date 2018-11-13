@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Osamu Takiya']
   spec.email         = ['takiya@toran.sakura.ne.jp']
 
-  spec.summary       = 'Checker whether a webpage is updated'
-  spec.description   = 'This gem checks whether a webpage is updated. By HTTP header or MD5 differencs, this gem inspects whether the page is updated or not.'
+  spec.summary       = 'Check whether a webpage is updated'
+  spec.description   = 'This gem checks whether a webpage is updated. By HTTP header or hash (MD5, SHA256...) differences, this gem inspects whether the page is updated or not.'
   spec.homepage      = 'https://github.com/corselia/webpage-update-checker'
 
   # Specify which files should be added to the gem when it is released.
@@ -32,8 +32,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rspec-its'
-  spec.add_development_dependency 'rspec_junit_formatter'
   spec.add_development_dependency 'rspec-parameterized'
+  spec.add_development_dependency 'rspec_junit_formatter'
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'webmock'
