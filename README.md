@@ -34,6 +34,7 @@ You can use these `Methods`.
 - Sha256
 - Sha384
 - Sha512
+- HttpStatusCode
 
 # methods
 You can use these methods in each `Methods`.
@@ -41,7 +42,7 @@ You can use these methods in each `Methods`.
 - `#updated?(checked_object, previous_diff_value:)`
     - `#=> true or false`
 - `#current_diff_value(checked_object)`
-    - `#=> object such as Time or String (MD5, SHA512...)`
+    - `#=> object such as Time (LastModified) or String (MD5, SHA512...)`
 
 # TODO
 - [Coveralls](https://coveralls.io/)
