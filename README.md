@@ -7,11 +7,16 @@
 
 # Usage
 ```
-gem 'webpage_update_checker'
+$ vim Gemfile
+# Add a line
+# gem 'webpage_update_checker'
+$ bundle install
 ```
 
+or
+
 ```bash
-$ bundle install
+$ gem install webpage_update_checker
 ```
 
 ```ruby
