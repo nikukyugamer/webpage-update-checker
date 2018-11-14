@@ -1,6 +1,5 @@
 RSpec.describe WebpageUpdateChecker::Methods::LastModified do
   describe '#current_diff_value' do
-
     it 'returns Last-Modified if the page has Last-Modified header' do
       checker = WebpageUpdateChecker::Methods::LastModified.new(uri: 'http://www.ne.jp/asahi/pursuits/ootsuki/pc/X68k/x680x0.xhtml')
       expect(checker.current_diff_value.is_a?(Time)).to match(true)

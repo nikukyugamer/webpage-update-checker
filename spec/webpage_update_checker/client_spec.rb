@@ -11,7 +11,7 @@ RSpec.describe WebpageUpdateChecker::Client do
 
     it 'returns Exceotion if uri is invalid' do
       obj = WebpageUpdateChecker::Methods::Md5.new(uri: 'https://foobar/')
-      expect{ @checker.current_diff_value(obj) }.to raise_error(SocketError)
+      expect { @checker.current_diff_value(obj) }.to raise_error(SocketError)
     end
   end
 
