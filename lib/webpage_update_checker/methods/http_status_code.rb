@@ -5,7 +5,7 @@ module WebpageUpdateChecker
         @uri = uri
       end
 
-      def current_diff_value
+      def current_comparison_value
         page = Mechanize.new.get(@uri)
         page.code.to_i
       rescue Mechanize::ResponseCodeError => e
