@@ -3,7 +3,7 @@ Dir[File.expand_path('methods', __dir__) << '/*.rb'].each { |file| require file 
 
 module WebpageUpdateChecker
   class Client
-    def updated?(checked_object, previous_comparison_value:, previous_diff_value: nil)
+    def updated?(checked_object, previous_comparison_value: nil, previous_diff_value: nil)
       if previous_comparison_value.nil?
         # Deprecated keyword argument
         current_comparison_value(checked_object) != previous_diff_value
