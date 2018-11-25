@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    webpage_update_checker (1.2.0)
+    webpage_update_checker (1.3.0)
       mechanize
 
 GEM

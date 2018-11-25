@@ -5,7 +5,7 @@ module WebpageUpdateChecker
         @uri = uri
       end
 
-      def current_diff_value
+      def current_comparison_value
         require 'digest/sha2'
 
         page = Mechanize.new.get(@uri)
