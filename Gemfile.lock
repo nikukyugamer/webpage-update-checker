@@ -164,7 +164,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler
   codeclimate-test-reporter (~> 1.0.0)
   coveralls
   dotenv
@@ -181,5 +181,3 @@ DEPENDENCIES
   webpage_update_checker!
   yard
 
-BUNDLED WITH
-   1.17.1
