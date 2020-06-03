@@ -3,7 +3,7 @@
     - For not only webpage but also image, css and js (resources)
 
 [![Gem Version](https://badge.fury.io/rb/webpage_update_checker.svg)](https://badge.fury.io/rb/webpage_update_checker)
-[![CircleCI](https://circleci.com/gh/corselia/webpage-update-checker.svg?style=svg)](https://circleci.com/gh/corselia/webpage-update-checker)
+[![CircleCI](https://circleci.com/gh/nikukyugamer/webpage-update-checker.svg?style=svg)](https://circleci.com/gh/nikukyugamer/webpage-update-checker)
 
 # Usage
 
