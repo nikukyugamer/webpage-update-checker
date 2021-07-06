@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Check whether a webpage is updated'
   spec.description   = 'This gem checks whether a webpage is updated. By HTTP header or hash (MD5, SHA256...) differences, this gem inspects whether the page is updated or not.'
-  spec.homepage      = 'https://github.com/corselia/webpage-update-checker'
+  spec.homepage      = 'https://github.com/nikukyugamer/webpage-update-checker'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -24,14 +24,14 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'mechanize'
   spec.add_dependency 'activesupport'
 
-  spec.add_development_dependency 'bundler', '~> 1.16'
-  spec.add_development_dependency 'codeclimate-test-reporter', '~> 1.0.0'
+  spec.add_development_dependency 'bundler'
+  spec.add_development_dependency 'codeclimate-test-reporter'
   spec.add_development_dependency 'coveralls'
   spec.add_development_dependency 'dotenv'
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'pry-byebug'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'rspec-its'
   spec.add_development_dependency 'rspec-parameterized'
   spec.add_development_dependency 'rspec_junit_formatter'
